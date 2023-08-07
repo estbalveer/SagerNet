@@ -47,7 +47,7 @@ import android.content.Intent
  *&lt;/manifest&gt;</pre>
  */
 abstract class ConfigurationActivity : OptionsCapableActivity() {
-    /**
+    /** 
      * Equivalent to setResult(RESULT_CANCELED).
      */
     fun discardChanges() = setResult(Activity.RESULT_CANCELED)
